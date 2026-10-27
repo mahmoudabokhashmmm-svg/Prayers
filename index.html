@@ -1,0 +1,612 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعاء بالشفاء العاجل للأستاذ طارق المحمدي (زوج عمتي)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        emerald: {
+                            400: '#34d399',
+                            500: '#10b981',
+                            600: '#059669',
+                            900: '#064e3b',
+                        },
+                        amber: {
+                            300: '#fde047',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        },
+                        slate: {
+                            850: '#111827',
+                            900: '#0f172a',
+                            950: '#020617',
+                        }
+                    },
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                        amiri: ['Amiri', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #0b132b;
+            color: #f1f5f9;
+        }
+        .font-quran {
+            font-family: 'Amiri', serif;
+        }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fef08a 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .emerald-gradient-text {
+            background: linear-gradient(135deg, #a7f3d0 0%, #10b981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(16, 185, 129, 0.4);
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(16, 185, 129, 0.7);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-emerald-500 selection:text-white custom-scrollbar pb-16">
+
+    <!-- Header / Banner Section -->
+    <header class="relative overflow-hidden pt-8 pb-10 px-4 text-center border-b border-slate-800">
+        <!-- Background Glowing Decorative Elements -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+        <div class="absolute top-10 right-10 w-48 h-48 bg-amber-500/10 rounded-full blur-2xl -z-10 pointer-events-none"></div>
+
+        <div class="max-w-3xl mx-auto">
+            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-4 animate-pulse">
+                <i class="fa-solid fa-heart-pulse"></i>
+                دعاء بالشفاء العاجل والخير
+            </span>
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-3 text-white">
+                اللهم اشفِ <span class="gold-gradient-text">الأستاذ طارق المحمدي</span>
+            </h1>
+            <p class="text-amber-400/90 font-bold text-base sm:text-lg mb-2">
+                (زوج عمتي الغالي)
+            </p>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-xl mx-auto font-quran">
+                «اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، اشْفِ وَأَنْتَ الشَّافِي، لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ، شِفَاءً لاَ يُغَادِرُ سَقَمًا»
+            </p>
+        </div>
+    </header>
+
+    <!-- Control Toolbar (Font Size & Quick Actions) -->
+    <section class="max-w-4xl mx-auto px-4 w-full mt-6">
+        <div class="glass-card rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4 border border-slate-800">
+            <!-- Text Size Controls -->
+            <div class="flex items-center gap-2">
+                <span class="text-xs text-slate-400 font-semibold ml-1">حجم الخط:</span>
+                <button onclick="changeFontSize(-2)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center justify-center">
+                    A-
+                </button>
+                <button onclick="resetFontSize()" class="px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition">
+                    افتراضي
+                </button>
+                <button onclick="changeFontSize(2)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center justify-center">
+                    A+
+                </button>
+            </div>
+
+            <!-- Global Actions -->
+            <div class="flex items-center gap-2">
+                <button onclick="copyAllDuaa()" class="px-3.5 py-2 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/20 rounded-xl text-xs font-bold flex items-center gap-1.5 transition">
+                    <i class="fa-regular fa-copy"></i>
+                    <span>نسخ كل الأدعية</span>
+                </button>
+                <button onclick="shareWhatsAppAll()" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold flex items-center gap-1.5 transition shadow-lg shadow-emerald-600/20">
+                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                    <span>مشاركة الكل على واتساب</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tasbeeh / Tap Counter Section -->
+    <section class="max-w-4xl mx-auto px-4 w-full mt-6">
+        <div class="glass-card rounded-2xl p-6 text-center border border-emerald-500/20 relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 w-32 h-32 bg-emerald-500/5 rounded-full blur-xl pointer-events-none"></div>
+            
+            <h3 class="text-xs sm:text-sm font-bold text-emerald-400 mb-1">
+                <i class="fa-solid fa-hand-holding-heart ml-1"></i> عداد التسبيح والاستغفار بنية الشفاء
+            </h3>
+            <p class="text-xs text-slate-400 mb-4">اضغط على الزر أدناه بنية الشفاء العاجل للأستاذ طارق المحمدي (زوج عمتي)</p>
+
+            <div class="flex flex-col items-center justify-center gap-3">
+                <div id="tasbeehDisplay" class="text-4xl sm:text-5xl font-extrabold text-amber-400 font-mono tracking-wider my-1">
+                    0
+                </div>
+                <button id="tasbeehBtn" onclick="incrementGlobalTasbeeh()" class="w-28 h-28 sm:w-32 sm:w-32 rounded-full bg-gradient-to-tr from-emerald-600 to-emerald-400 hover:from-emerald-500 hover:to-emerald-300 text-white font-extrabold text-lg shadow-xl shadow-emerald-900/40 active:scale-95 transition-all duration-150 flex flex-col items-center justify-center gap-1 select-none cursor-pointer border-4 border-slate-900">
+                    <i class="fa-solid fa-fingerprint text-2xl"></i>
+                    <span>اضغط هنا</span>
+                </button>
+                <div class="flex items-center gap-3 mt-1">
+                    <span id="tasbeehPhrase" class="text-xs text-slate-300 font-semibold bg-slate-900/80 px-3 py-1 rounded-full border border-slate-800">
+                        "يا شافي يا معافي"
+                    </span>
+                    <button onclick="resetGlobalTasbeeh()" class="text-slate-500 hover:text-slate-300 text-xs transition" title="إعادة ضبط العداد">
+                        <i class="fa-solid fa-rotate-right ml-1"></i>تصفير
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 w-full flex-grow mt-8">
+
+        <!-- Category Filters -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mb-8" id="categoryFilter">
+            <button onclick="filterCategory('all')" id="tab-all" class="filter-btn active-tab px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 bg-emerald-600 text-white shadow-lg shadow-emerald-600/25">
+                <i class="fa-solid fa-layer-group ml-1.5"></i> الكل (<span id="count-all">0</span>)
+            </button>
+            <button onclick="filterCategory('prophetic')" id="tab-prophetic" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 bg-slate-800 text-slate-300 hover:bg-slate-700">
+                <i class="fa-solid fa-book-quran ml-1.5"></i> السنة النبوية
+            </button>
+            <button onclick="filterCategory('healing')" id="tab-healing" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 bg-slate-800 text-slate-300 hover:bg-slate-700">
+                <i class="fa-solid fa-staff-snake ml-1.5"></i> الشفاء وتخفيف الألم
+            </button>
+            <button onclick="filterCategory('longevity')" id="tab-longevity" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 bg-slate-800 text-slate-300 hover:bg-slate-700">
+                <i class="fa-solid fa-seedling ml-1.5"></i> البركة وطول العمر
+            </button>
+            <button onclick="filterCategory('family')" id="tab-family" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 bg-slate-800 text-slate-300 hover:bg-slate-700">
+                <i class="fa-solid fa-house-chimney-medical ml-1.5"></i> الرد للبيت وسكينة الأهل
+            </button>
+        </div>
+
+        <!-- Supplications List Container -->
+        <div id="duaaContainer" class="space-y-5">
+            <!-- Cards will be populated dynamically by JS -->
+        </div>
+
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed top-5 left-1/2 -translate-x-1/2 z-50 transform -translate-y-20 opacity-0 transition-all duration-300 ease-out pointer-events-none">
+        <div class="bg-emerald-600 text-white px-5 py-3 rounded-xl shadow-2xl flex items-center gap-2 text-sm font-bold border border-emerald-400">
+            <i class="fa-solid fa-circle-check text-base"></i>
+            <span id="toastMessage">تم النسخ بنجاح!</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-16 text-center text-xs text-slate-500 border-t border-slate-800/80 pt-6 px-4">
+        <p class="text-slate-400">اللهم اشفِ الأستاذ طارق المحمدي (زوج عمتي) شفاءً تاماً لا يغادر سقماً، وأسبغ عليه الصحة والعافية.</p>
+        <p class="mt-1 text-slate-600">صفحة مخصصة للدعاء والاستغفار بظهر الغيب.</p>
+    </footer>
+
+    <!-- Logic Script -->
+    <script>
+        // Supplication Data Array
+        const supplications = [
+            // السنة النبوية
+            {
+                id: 1,
+                category: "prophetic",
+                categoryTitle: "من السنة النبوية",
+                badgeColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
+                title: "دعاء كشف البأس والشفاء التام",
+                text: "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، اشْفِ وَأَنْتَ الشَّافِي، لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ، شِفَاءً لاَ يُغَادِرُ سَقَمًا.",
+                targetCount: 3,
+                currentCount: 0,
+                note: "يُستحب تكرارها 3 مرات بنية شفاء الأستاذ طارق المحمدي (زوج عمتي)."
+            },
+            {
+                id: 2,
+                category: "prophetic",
+                categoryTitle: "من السنة النبوية",
+                badgeColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
+                title: "سؤال الله العظيم الشفاء العاجل",
+                text: "أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَ الأستاذ طارق المحمدي (زوج عمتي)، وَأَنْ يُعَافِيَهُ مِنْ كُلِّ سُوءٍ.",
+                targetCount: 7,
+                currentCount: 0,
+                note: "من دعا بها للمريض ٧ مرات، يُرجى له الشفاء بإذن الله."
+            },
+            {
+                id: 3,
+                category: "prophetic",
+                categoryTitle: "من السنة النبوية",
+                badgeColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
+                title: "التعوذ بقدرة الله من ألم الجسد",
+                text: "بِسْمِ اللَّهِ (3 مرات).. أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا يَجِدُ الأستاذ طارق المحمدي (زوج عمتي) وَيُحَاذِرُ (7 مرات).",
+                targetCount: 7,
+                currentCount: 0,
+                note: "تُقال لدفع الألم والتعب والوعكة الصحية."
+            },
+            {
+                id: 4,
+                category: "prophetic",
+                categoryTitle: "من السنة النبوية",
+                badgeColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
+                title: "دعاء النبي ﷺ للسلامة والعافية",
+                text: "اللَّهُمَّ عَافِ الأستاذ طارق المحمدي (زوج عمتي) فِي بَدَنِهِ، اللَّهُمَّ عَافِهِ فِي سَمْعِهِ، اللَّهُمَّ عَافِهِ فِي بَصَرِهِ، لاَ إِلَهَ إِلاَّ أَنْتَ.",
+                targetCount: 3,
+                currentCount: 0,
+                note: "تُقال صباحاً ومساءً بنية حفظ البدن والصحة."
+            },
+
+            // الشفاء وتخفيف الألم
+            {
+                id: 5,
+                category: "healing",
+                categoryTitle: "الشفاء وتخفيف الألم",
+                badgeColor: "bg-amber-500/10 text-amber-400 border-amber-500/20",
+                title: "دعاء تسكين الأوجاع والنزلة المعوية",
+                text: "اللهم يا كاشف الضر، ويا مجيب دعوة المضطرين، اشفِ الأستاذ طارق المحمدي (زوج عمتي)، وهدئ ألم معدته وجسده، واجعل ما ألمّ به طهوراً وكفارة لذنوبه ورأفة به.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "دعاء لسكينة الجسد وزوال التعب والترجيع."
+            },
+            {
+                id: 6,
+                category: "healing",
+                categoryTitle: "الشفاء وتخفيف الألم",
+                badgeColor: "bg-amber-500/10 text-amber-400 border-amber-500/20",
+                title: "دعاء إلباس ثوب الصحة والعافية",
+                text: "اللهم إنك أنت الشافي المعافي، اللهم ألبس الأستاذ طارق المحمدي (زوج عمتي) ثوب الصحة والعافية، وأخرج المرض من جسده كما يخرج الليل من النهار، ورد إليه قوته وعافيته.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "توسل برحمة الله وشافيته الكبيرة."
+            },
+            {
+                id: 7,
+                category: "healing",
+                categoryTitle: "الشفاء وتخفيف الألم",
+                badgeColor: "bg-amber-500/10 text-amber-400 border-amber-500/20",
+                title: "دعاء تفريج الهم واللطف بالجسد",
+                text: "اللهم يا مسهل الشديد، ويا ملين الحديد، ويا منجز الوعيد، أخرج الأستاذ طارق المحمدي (زوج عمتي) من حلق الضيق إلى أوسع الطريق، وبك ندفع عنه ما لا يطيق، ولا حول ولا قوة إلا بالله العلي العظيم.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "دعاء فرج ولطف في وقت الشدة."
+            },
+            {
+                id: 8,
+                category: "healing",
+                categoryTitle: "الشفاء وتخفيف الألم",
+                badgeColor: "bg-amber-500/10 text-amber-400 border-amber-500/20",
+                title: "دعاء الشفاء بلا أثر للمرض",
+                text: "اللهم لا تدع في جسد الأستاذ طارق المحمدي (زوج عمتي) ألماً إلا سكنته، ولا مرضاً إلا شفيته، ولا جرحاً إلا داويته، واجعل عافيته سرية في كل عرق وعصب من أسرار شفائك.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "دعاء شمول الشفاء لجميع أجزاء الجسد."
+            },
+
+            // البركة وطول العمر
+            {
+                id: 9,
+                category: "longevity",
+                categoryTitle: "البركة وطول العمر",
+                badgeColor: "bg-emerald-500/10 text-emerald-300 border-emerald-500/20",
+                title: "دعاء طول العمر في طاعة وصحة",
+                text: "اللهم بارك في عمر الأستاذ طارق المحمدي (زوج عمتي)، وأطل في عمره على طاعتك ورضاك، واجعله يرفل دائماً في صحة وعافية وراحة بال، وبارك له في صحته وعافيته وأهله.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "سؤال الله البركة في العمر والجسد."
+            },
+            {
+                id: 10,
+                category: "longevity",
+                categoryTitle: "البركة وطول العمر",
+                badgeColor: "bg-emerald-500/10 text-emerald-300 border-emerald-500/20",
+                title: "دعاء حفظ القوة وتجدد النشاط",
+                text: "اللهم جدد الطاقة والعافية في جسد الأستاذ طارق المحمدي (زوج عمتي)، وارزقه قوة البدن، وراحة الذهن، وسعة الرزق، والبركة في كل أيامه القادمة.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "دعاء بتجديد القوة والنشاط بعد الشفاء."
+            },
+
+            // الرد للبيت وسكينة الأهل
+            {
+                id: 11,
+                category: "family",
+                categoryTitle: "الرد للبيت وسكينة الأهل",
+                badgeColor: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+                title: "دعاء العودة الميمونة للبيت سالماً",
+                text: "اللهم إنه عزيز على قلوبنا وبمثابة الأب، اللهم احفظ الأستاذ طارق المحمدي (زوج عمتي) بركنك الذي لا يرام، واكلوه بعينك التي لا تنام، ورده إلى بيته وأهله سالماً معافى مأجوراً في القريب العاجل.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "دعاء بظهر الغيب للعودة المباركة للبيت."
+            },
+            {
+                id: 12,
+                category: "family",
+                categoryTitle: "الرد للبيت وسكينة الأهل",
+                badgeColor: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+                title: "دعاء طمأنينة قلوب العائلة والصبر",
+                text: "اللهم أنزل السكينة والطمأنينة على قلب الأستاذ طارق المحمدي (زوج عمتي) وعلى عمتي وأهل بيته أجمعين، واجمع شملهم في بيتهم وهم في أتم الصحة وأسعد حال، وبشرنا برؤيته سالماً معافى.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "دعاء لربط القلوب وجلب البشارة."
+            },
+            {
+                id: 13,
+                category: "family",
+                categoryTitle: "الرد للبيت وسكينة الأهل",
+                badgeColor: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+                title: "دعاء الفرج العاجل والبشارة الطيبة",
+                text: "اللهم إنا نستودعك الأستاذ طارق المحمدي (زوج عمتي) فاحفظه بحفظك الجميل، وبشرنا بعافيته التامة كما بشرت يعقوب بـيوسف، واجعل هذه الأيام في ميزان حسناته رفعة ومغفرة.",
+                targetCount: 1,
+                currentCount: 0,
+                note: "دعاء بالبشارة والفرج القريب."
+            }
+        ];
+
+        let activeCategory = 'all';
+        let fontSizeDelta = 0;
+        let globalTasbeehCount = 0;
+
+        const tasbeehPhrases = [
+            '"يا شافي يا معافي"',
+            '"أستغفر الله العظيم وأتوب إليه"',
+            '"لا إله إلا أنت سبحانك إني كنت من الظالمين"',
+            '"اللهم صلِّ وسلّم على نبينا محمد"',
+            '"لا حول ولا قوة إلا بالله العلي العظيم"'
+        ];
+
+        // Update Category Counts
+        function updateCategoryCounts() {
+            document.getElementById('count-all').innerText = supplications.length;
+        }
+
+        // Render Supplications
+        function renderSupplications() {
+            const container = document.getElementById('duaaContainer');
+            container.innerHTML = '';
+
+            const filtered = activeCategory === 'all' 
+                ? supplications 
+                : supplications.filter(s => s.category === activeCategory);
+
+            filtered.forEach(item => {
+                const isCompleted = item.currentCount >= item.targetCount;
+                const cardHtml = `
+                    <div class="glass-card rounded-2xl p-5 sm:p-6 transition-all duration-300 hover:border-slate-700 relative overflow-hidden group">
+                        
+                        <!-- Top Bar inside Card -->
+                        <div class="flex items-center justify-between gap-2 mb-3">
+                            <span class="inline-flex items-center px-3 py-1 rounded-lg text-xs font-bold border ${item.badgeColor}">
+                                ${item.categoryTitle}
+                            </span>
+                            <span class="text-xs text-slate-400 font-medium">
+                                ${item.note}
+                            </span>
+                        </div>
+
+                        <!-- Supplication Title -->
+                        <h2 class="text-lg font-bold text-amber-300 mb-2">${item.title}</h2>
+
+                        <!-- Supplication Body Text -->
+                        <p class="font-quran text-slate-100 leading-relaxed sm:leading-loose mb-6 bg-slate-900/60 p-4 rounded-xl border border-slate-800/80 duaa-text" style="font-size: ${22 + fontSizeDelta}px;">
+                            "${item.text}"
+                        </p>
+
+                        <!-- Controls / Counter & Actions -->
+                        <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-800/60">
+                            
+                            <!-- Counter Button -->
+                            <div class="flex items-center gap-2">
+                                <button onclick="incrementCounter(${item.id})" 
+                                    class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center gap-2 transition-all duration-200 ${
+                                        isCompleted 
+                                        ? 'bg-emerald-600 text-white shadow-lg shadow-emerald-600/30 ring-2 ring-emerald-400' 
+                                        : 'bg-emerald-500/20 text-emerald-300 hover:bg-emerald-500/30 border border-emerald-500/30'
+                                    }">
+                                    <i class="fa-solid ${isCompleted ? 'fa-check' : 'fa-fingerprint'} text-sm"></i>
+                                    <span>${isCompleted ? 'تم التكرار بنجاح' : 'تكرار الدعاء'}</span>
+                                    <span class="bg-slate-950/60 px-2 py-0.5 rounded-md text-xs font-extrabold mr-1">
+                                        ${item.currentCount} / ${item.targetCount}
+                                    </span>
+                                </button>
+
+                                ${item.currentCount > 0 ? `
+                                    <button onclick="resetSingleCounter(${item.id})" class="text-slate-500 hover:text-slate-300 text-xs p-2 transition" title="تصفير العداد">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                    </button>
+                                ` : ''}
+                            </div>
+
+                            <!-- Share & Copy Actions -->
+                            <div class="flex items-center gap-2">
+                                <button onclick="copyDuaaText('${escapeQuotes(item.text)}')" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition">
+                                    <i class="fa-regular fa-copy"></i>
+                                    <span>نسخ</span>
+                                </button>
+                                <button onclick="shareWhatsAppSingle('${escapeQuotes(item.title)}', '${escapeQuotes(item.text)}')" class="px-3 py-2 bg-emerald-900/40 hover:bg-emerald-800/60 text-emerald-300 border border-emerald-500/30 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition">
+                                    <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                                    <span>واتساب</span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += cardHtml;
+            });
+        }
+
+        // Helper to escape quotes
+        function escapeQuotes(str) {
+            return str.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        }
+
+        // Counter Logic
+        function incrementCounter(id) {
+            const item = supplications.find(s => s.id === id);
+            if (item) {
+                if (item.currentCount < item.targetCount) {
+                    item.currentCount++;
+                } else {
+                    item.currentCount = 0;
+                }
+                renderSupplications();
+            }
+        }
+
+        function resetSingleCounter(id) {
+            const item = supplications.find(s => s.id === id);
+            if (item) {
+                item.currentCount = 0;
+                renderSupplications();
+            }
+        }
+
+        // Font Size Logic
+        function changeFontSize(delta) {
+            fontSizeDelta += delta;
+            if (fontSizeDelta < -6) fontSizeDelta = -6;
+            if (fontSizeDelta > 14) fontSizeDelta = 14;
+            renderSupplications();
+        }
+
+        function resetFontSize() {
+            fontSizeDelta = 0;
+            renderSupplications();
+        }
+
+        // Global Tasbeeh Tap Counter
+        function incrementGlobalTasbeeh() {
+            globalTasbeehCount++;
+            document.getElementById('tasbeehDisplay').innerText = globalTasbeehCount;
+
+            // Rotate phrases every 33 taps
+            const phraseIndex = Math.floor(globalTasbeehCount / 33) % tasbeehPhrases.length;
+            document.getElementById('tasbeehPhrase').innerText = tasbeehPhrases[phraseIndex];
+
+            // Subtle animation effect
+            const btn = document.getElementById('tasbeehBtn');
+            btn.classList.add('scale-95');
+            setTimeout(() => btn.classList.remove('scale-95'), 100);
+        }
+
+        function resetGlobalTasbeeh() {
+            globalTasbeehCount = 0;
+            document.getElementById('tasbeehDisplay').innerText = 0;
+            document.getElementById('tasbeehPhrase').innerText = tasbeehPhrases[0];
+            showToast("تم تصفير عداد التسبيح");
+        }
+
+        // Category Filter Logic
+        function filterCategory(category) {
+            activeCategory = category;
+            
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('bg-emerald-600', 'text-white', 'shadow-lg', 'shadow-emerald-600/25');
+                btn.classList.add('bg-slate-800', 'text-slate-300');
+            });
+
+            const activeBtn = document.getElementById(`tab-${category}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('bg-slate-800', 'text-slate-300');
+                activeBtn.classList.add('bg-emerald-600', 'text-white', 'shadow-lg', 'shadow-emerald-600/25');
+            }
+
+            renderSupplications();
+        }
+
+        // Copy Text Function
+        function copyDuaaText(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                showToast("تم نسخ الدعاء بنجاح!");
+            } catch (err) {
+                showToast("حدث خطأ أثناء النسخ");
+            }
+            document.body.removeChild(textarea);
+        }
+
+        // Copy All Supplications
+        function copyAllDuaa() {
+            let fullText = "أدعية بالشفاء العاجل للأستاذ طارق المحمدي (زوج عمتي):\n\n";
+            supplications.forEach((s, index) => {
+                fullText += `${index + 1}. ${s.title}:\n"${s.text}"\n\n`;
+            });
+            fullText += "اللهم اشفه وعافه ورده لأهله بيته سالماً معافى يا رب العالمين.";
+            
+            copyDuaaText(fullText);
+            showToast("تم نسخ كافة الأدعية بنجاح!");
+        }
+
+        // WhatsApp Share Functions
+        function shareWhatsAppSingle(title, text) {
+            const message = `دعاء بالشفاء للأستاذ طارق المحمدي (زوج عمتي):\n\n*${title}*\n"${text}"\n\nاللهم ألبسه ثوب الصحة والعافية واشفه شفاءً تاماً.`;
+            const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        function shareWhatsAppAll() {
+            let message = "دعاء بالشفاء العاجل للأستاذ طارق المحمدي (زوج عمتي):\n\n";
+            supplications.slice(0, 5).forEach((s, index) => {
+                message += `*${s.title}*\n"${s.text}"\n\n`;
+            });
+            message += "اللهم اشفه وعافه ورده إلى أهله سالماً معافى يا رب العالمين.";
+            
+            const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Toast Notification
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMessage = document.getElementById('toastMessage');
+            
+            toastMessage.innerText = message;
+            toast.classList.remove('-translate-y-20', 'opacity-0');
+            toast.classList.add('translate-y-0', 'opacity-100');
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('-translate-y-20', 'opacity-0');
+            }, 2500);
+        }
+
+        // Init on load
+        window.onload = function() {
+            updateCategoryCounts();
+            renderSupplications();
+        };
+    </script>
+</body>
+</html>
+```
